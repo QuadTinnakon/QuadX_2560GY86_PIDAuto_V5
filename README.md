@@ -6,6 +6,10 @@ QuadX_2560GY86_PIDAuto_V5
 
 https://www.youtube.com/watch?v=w7J181fQ42M&feature=youtu.be
 
+ทดสอบความเร็วการยกตัว
+
+https://www.youtube.com/watch?v=w7J181fQ42M&list=UUK8SdBKqjdXghqlJf3-sZaQ
+
 หน้าเวป 
 
 http://quad3d-tin.lnwshop.com/product/30/auto2560-gy86
