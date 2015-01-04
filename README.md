@@ -1,6 +1,6 @@
 QuadX_2560GY86_PIDAuto_V5
 =========================
-https://cloud.githubusercontent.com/assets/9403558/5604332/6aeba6fa-93e8-11e4-8781-c0c3cdf485d3.jpg
+![](https://cloud.githubusercontent.com/assets/9403558/5604332/6aeba6fa-93e8-11e4-8781-c0c3cdf485d3.jpg)
 
 หน้าเวป 
 
