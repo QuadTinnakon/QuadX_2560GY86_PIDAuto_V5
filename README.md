@@ -2,6 +2,10 @@ QuadX_2560GY86_PIDAuto_V5
 =========================
 ![](https://cloud.githubusercontent.com/assets/9403558/5604332/6aeba6fa-93e8-11e4-8781-c0c3cdf485d3.jpg)
 
+วีดีโอ
+
+https://www.youtube.com/watch?v=w7J181fQ42M&feature=youtu.be
+
 หน้าเวป 
 
 http://quad3d-tin.lnwshop.com/product/30/auto2560-gy86
