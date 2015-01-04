@@ -61,12 +61,18 @@ int MOTOR_BackR_PIN = 3;
 CPPM pin A8
 
 */
+
 project_QuadX_2560 GY86_PIDAuto_V1  
+
 1. Automatic  Takeoff 
 2. Landing
 3. GPS Position Hold
 by: tinnakon kheowree  
+
 tinnakon_za@hotmail.com
+
 tinnakonza@gmail.com
+
 http://quad3d-tin.lnwshop.com/
+
 https://www.facebook.com/tinnakonza
