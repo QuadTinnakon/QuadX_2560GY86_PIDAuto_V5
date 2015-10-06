@@ -22,7 +22,7 @@ int Mode = 0;
 //Mode 3 = Automatic  Takeoff ,Landing
 #define MINTHROTTLE 1064 //1090
 #define MAXTHROTTLE 1850
-#define MINCOMMAND 1064
+#define MINCOMMAND 1000
 #define MAXCOMMAND 1850
 #define MIDRC 1500
 #define MINCHECK 1100
