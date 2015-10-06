@@ -109,10 +109,10 @@ void ESC_calibration () {
    motor_BackL = (CH_THR - 500)*1.5;
    motor_BackR = (CH_THR - 500)*1.5;
    
-   motor_FrontL = constrain(motor_FrontL, MINTHROTTLE, MAXTHROTTLE);
-   motor_FrontR = constrain(motor_FrontR, MINTHROTTLE, MAXTHROTTLE);
-   motor_BackL = constrain(motor_BackL, MINTHROTTLE, MAXTHROTTLE);
-   motor_BackR = constrain(motor_BackR, MINTHROTTLE, MAXTHROTTLE);
+   motor_FrontL = constrain(motor_FrontL, MINCOMMAND, MAXTHROTTLE);
+   motor_FrontR = constrain(motor_FrontR, MINCOMMAND, MAXTHROTTLE);
+   motor_BackL = constrain(motor_BackL, MINCOMMAND, MAXTHROTTLE);
+   motor_BackR = constrain(motor_BackR, MINCOMMAND, MAXTHROTTLE);
    
   OCR3B = motor_FrontL*2; //  pin 2
   OCR3C = motor_BackR*2; //  pin 3  <<3
