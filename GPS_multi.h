@@ -53,13 +53,13 @@ const char UBLOX_INIT[] PROGMEM = { // PROGMEM array must be outside any functio
 void GPS_multiInt()
 {
   //Serial2.begin(115200);//u-blox-config.ublox.txt
-  Serial2.begin(38400);//GPS2 38400
+  Serial2.begin(9600);//GPS2 38400
   //GPS UBLOX switch UART speed for sending SET BAUDRATE command (NMEA mode)
  // (which depends on the NMEA or MTK_BINARYxx settings)
-  //Serial2.print("$PUBX,41,1,0003,0001,38400,0*26\r\n");
+  Serial2.print("$PUBX,41,1,0003,0001,38400,0*26\r\n");
   //Serial2.print("$PUBX,41,1,0003,0001,57600,0*2D\r\n");
   delay(200);
-  //Serial2.begin(57600);
+  Serial2.begin(38400);
   //Serial2.print("$PUBX,41,1,0003,0001,38400,0*26\r\n");
   //Serial2.print("$PUBX,41,1,0003,0001,57600,0*2D\r\n");
   delay(200);
