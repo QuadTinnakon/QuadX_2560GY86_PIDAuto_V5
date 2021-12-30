@@ -13,7 +13,7 @@ date: 22-12-2557(2014)  V.1 QuadX_2560 GY86_PIDAuto_V1
 date: 28-12-2557(2014)      QuadX_2560 GY86_PIDAuto_V2   ,Write P-PID Controller
 date: 28-12-2557(2014)      QuadX_2560 GY86_PIDAuto_V3   ,Ultrasonic and baro ,,Ultrasonic max 0.8 m change to Baro
 date: 30-12-2557(2014)      QuadX_2560 GY86_PIDAuto_V4   ,tuning P-PID Controller
-date: 31-12-2557(2014)      QuadX_2560 GY86_PIDAuto_V5   ,tuning Altitude Hold , Position Hold
+date: 31-12-2554(2021)      QuadX_2560 GY86_PIDAuto_V5   ,tuning Altitude Hold , Position Hold
 
 support:  Board 2560  GY86
 • Atmega2560
@@ -31,7 +31,6 @@ int MOTOR_FrontL_PIN = 2;
 int MOTOR_FrontR_PIN = 5;
 int MOTOR_BackL_PIN = 6;
 int MOTOR_BackR_PIN = 3;
-
 ----------rx-----------           
 CPPM pin A8
 */
@@ -167,7 +166,6 @@ void loop()
     for (int axis = XAXIS; axis <= ZAXIS; axis++) {
       filteredAccel[axis] = computeFourthOrder(Accel[axis], &fourthOrder[axis]);//"ahrs_tin.h"
     }
-    
     //AccXf = filteredAccel[XAXIS];
     //AccYf = filteredAccel[YAXIS];
     //AccZf = filteredAccel[ZAXIS];
